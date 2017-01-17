@@ -26,11 +26,14 @@ void			fillit(int *argc, char **argv)
 			return ;
 		}
 	}
-	ft_putstr("usage : ./fillit source_file\n");
+	ft_putstr("error\n");
 }
 
 int				main(int argc, char **argv)
 {
-	fillit(&argc, argv);
+	if (argc != 2)
+		ft_putstr("usage: ./fillit source_file\n");
+	else
+		fillit(&argc, argv);
 	return (0);
 }
