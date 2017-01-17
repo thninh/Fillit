@@ -26,7 +26,7 @@ void			fillit(int *argc, char **argv)
 			return ;
 		}
 	}
-	ft_putstr("usage : ./fillit source_file.\n");
+	ft_putstr("usage : ./fillit source_file\n");
 }
 
 int				main(int argc, char **argv)
