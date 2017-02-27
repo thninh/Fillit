@@ -102,7 +102,7 @@ char			**ft_copy_grid(char **grid, int len)
 	return (result);
 }
 
-char			ft_grid_isfull(char **tab)
+/*char			ft_grid_isfull(char **tab)
 {
 	int			i;
 	int			j;
@@ -124,4 +124,4 @@ char			ft_grid_isfull(char **tab)
 	if (c < 4)
 		return (1);
 	return (0);
-}
+}*/
